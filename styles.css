@@ -136,7 +136,7 @@ a:hover {
   grid-template-columns: minmax(0, 0.88fr) minmax(320px, 1fr);
   align-items: center;
   gap: 42px;
-  min-height: calc(100vh - 118px);
+  min-height: calc(100vh - 148px);
   padding-bottom: 36px;
 }
 
