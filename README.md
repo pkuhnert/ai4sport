@@ -1,4 +1,4 @@
-# Embodied World Models Workshop Website
+# Example Workshop Website
 
 Static HTML, CSS, and JavaScript for a GitHub Pages style academic workshop site.
 
