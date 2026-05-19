@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Avatar placeholder</title>
+  <desc id="desc">Generic placeholder portrait for speaker or organizer photos.</desc>
+  <rect width="240" height="240" fill="#e9f0f8"/>
+  <circle cx="120" cy="92" r="46" fill="#246bfe" opacity="0.82"/>
+  <path d="M44 224 C54 168 82 142 120 142 C158 142 186 168 196 224 Z" fill="#1e7a5f" opacity="0.88"/>
+  <circle cx="88" cy="88" r="8" fill="#fff"/>
+  <circle cx="152" cy="88" r="8" fill="#fff"/>
+  <path d="M96 120 C112 132 128 132 144 120" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+</svg>

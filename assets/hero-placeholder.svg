@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Workshop hero placeholder</title>
+  <desc id="desc">Abstract geometric placeholder image for a robotics and world models website.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eef6ff"/>
+      <stop offset="0.52" stop-color="#d8ecf4"/>
+      <stop offset="1" stop-color="#f8efe0"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#27496d"/>
+      <stop offset="1" stop-color="#246b5e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <path d="M0 632 C180 560 312 592 492 548 C690 500 838 472 1200 534 L1200 900 L0 900 Z" fill="url(#floor)" opacity="0.95"/>
+  <path d="M88 720 L1110 594" fill="none" stroke="#ffffff" stroke-width="8" opacity="0.55"/>
+  <path d="M138 780 L1012 624" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.35"/>
+  <g transform="translate(400 250)">
+    <rect x="130" y="210" width="230" height="170" rx="22" fill="#ffffff" stroke="#19304a" stroke-width="8"/>
+    <rect x="160" y="245" width="170" height="96" rx="12" fill="#246bfe" opacity="0.13"/>
+    <circle cx="198" cy="292" r="18" fill="#246bfe"/>
+    <circle cx="292" cy="292" r="18" fill="#1e7a5f"/>
+    <path d="M216 332 C248 352 270 352 304 332" fill="none" stroke="#19304a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M245 210 L245 132" stroke="#19304a" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="245" cy="112" r="22" fill="#c8631c"/>
+    <path d="M130 270 L60 220" stroke="#19304a" stroke-width="12" stroke-linecap="round"/>
+    <path d="M360 270 L432 220" stroke="#19304a" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="54" cy="216" r="22" fill="#ffffff" stroke="#19304a" stroke-width="8"/>
+    <circle cx="438" cy="216" r="22" fill="#ffffff" stroke="#19304a" stroke-width="8"/>
+    <path d="M170 380 L140 476" stroke="#19304a" stroke-width="12" stroke-linecap="round"/>
+    <path d="M320 380 L350 476" stroke="#19304a" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="134" cy="490" r="24" fill="#ffffff" stroke="#19304a" stroke-width="8"/>
+    <circle cx="356" cy="490" r="24" fill="#ffffff" stroke="#19304a" stroke-width="8"/>
+  </g>
+  <g fill="none" stroke="#19304a" stroke-width="5" opacity="0.28">
+    <circle cx="190" cy="180" r="54"/>
+    <circle cx="1010" cy="210" r="70"/>
+    <path d="M156 180 H224 M190 146 V214"/>
+    <path d="M966 210 H1054 M1010 166 V254"/>
+  </g>
+</svg>
