@@ -1,28 +1,27 @@
-# Workshop website template
+# Example Workshop Website
 
-A static academic workshop website template suitable for GitHub Pages.
+Static HTML, CSS, and JavaScript for a GitHub Pages style academic workshop site.
 
-## Structure
+## Files
 
-```text
-.
-├── index.html
-├── assets/
-│   ├── styles.css
-│   └── script.js
-└── README.md
+- `index.html` contains all site content and section anchors.
+- `styles.css` controls the layout, responsive behavior, and visual styling.
+- `script.js` handles the mobile menu and active navigation highlighting.
+- `assets/hero-placeholder.svg` and `assets/avatar-placeholder.svg` are editable placeholder images.
+
+## Run Locally
+
+Open `index.html` directly in a browser, or serve the folder with any static server:
+
+```bash
+python -m http.server 8000
 ```
 
-## How to use
+Then visit `http://localhost:8000`.
 
-1. Replace the title, date, room, conference, and workshop description in `index.html`.
-2. Replace the topic cards, schedule, speaker names, organizer names, and contact address.
-3. Add profile images if needed. You can replace the circular initial avatars with `<img>` tags.
-4. Push this folder to a GitHub repository.
-5. In GitHub, go to **Settings → Pages** and deploy from the main branch, root folder.
+## Publish With GitHub Pages
 
-## Notes
-
-- This is plain HTML/CSS/JavaScript, so no build system is required.
-- The page is responsive and includes a mobile navigation menu.
-- The background image is loaded from Unsplash. For a fully self-contained repository, download your preferred hero image into `assets/` and update the `background` URL in `assets/styles.css`.
+1. Commit these files to your repository.
+2. In GitHub, go to Settings > Pages.
+3. Set the source to your default branch and repository root.
+4. Replace placeholder names, links, logos, and images with your final content.
