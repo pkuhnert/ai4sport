@@ -145,13 +145,15 @@ a:hover {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   border: 1px solid var(--line);
-  background: var(--soft);
+  background: #fff;
 }
 
 .hero-media img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  aspect-ratio: 3 / 4;
   object-fit: contain;
+  background: #fff;
 }
 
 .hero-content {
