@@ -1,27 +1,27 @@
-# Example Workshop Website
+# AI for Sport and Human Performance Workshop
 
-Static HTML, CSS, and JavaScript for a GitHub Pages style academic workshop site.
+## Summary
 
-## Files
+his workshop brings together machine learning, statistics, and sport science 
+communities to advance principled, responsible, and interpretable AI methods for 
+decision-making in Professional, Olympic and Paralympic sports. 
 
-- `index.html` contains all site content and section anchors.
-- `styles.css` controls the layout, responsive behavior, and visual styling.
-- `script.js` handles the mobile menu and active navigation highlighting.
-- `assets/hero-placeholder.svg` and `assets/avatar-placeholder.svg` are editable placeholder images.
 
-## Run Locally
+## Themes
 
-Open `index.html` directly in a browser, or serve the folder with any static server:
+- Multi-agent Learning and Multimodal Intelligence in Team Sports
+- Advancing Participation, Performance and Safety in Paralympic sports
+- Responsible AI for Sport and Human Performance
+- The Future of Sports Data Science Towards 2032
 
-```bash
-python -m http.server 8000
-```
-
-Then visit `http://localhost:8000`.
-
-## Publish With GitHub Pages
-
-1. Commit these files to your repository.
-2. In GitHub, go to Settings > Pages.
-3. Set the source to your default branch and repository root.
-4. Replace placeholder names, links, logos, and images with your final content.
+## Proposed format
+Each theme will house a collection of different sessions in the form of:
+- Lightning rounds: Each paper accepted will have an opportunity to present a 1 
+  minute lightening talk to attract attention to their poster. 
+- Oral talks: Papers selected for an oral presentation will be allotted 15 minutes 
+- Poster sessions: We anticipate two poster sessions (morning and afternoon) to 
+  allow presenters more exposure to their work. We will also encourage posters to 
+  be uploaded to the website for the workshop to encourage more exposure to their work.
+- Invited talks: A 30-minute time slot (inclusive of 5 mins of Q\&A).
+- Roundtable discussions \& panel sessions}: A central focus will be on panel 
+  discussions around key ideas in AI for sports science or round table discussions focused on open research challenges in some of the themes.  The proposed schedule outlines the structure of these discussions/panel sessions for the workshop.
