@@ -14,6 +14,48 @@
   --content: 1080px;
 }
 
+.theme-blue {
+  border-left-color: #1f4e79;
+}
+
+.theme-green {
+  border-left-color: #2f7d5c;
+}
+
+.theme-purple {
+  border-left-color: #6b5ca5;
+}
+
+.theme-orange {
+  border-left-color: #c46a2b;
+}
+
+.theme-blue .theme-number {
+  color: #1f4e79;
+}
+
+.theme-green .theme-number {
+  color: #2f7d5c;
+}
+
+.theme-purple .theme-number {
+  color: #6b5ca5;
+}
+
+.theme-orange .theme-number {
+  color: #c46a2b;
+}
+
+
+.theme-number {
+  font-weight: 900;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #1f4e79;
+  padding-top: 0.25rem;
+}
+
 * {
   box-sizing: border-box;
 }
