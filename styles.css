@@ -183,19 +183,22 @@ a:hover {
 }
 
 .hero-media {
-  overflow: hidden;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  border: 1px solid var(--line);
-  background: #fff;
+  margin: 0;
 }
 
 .hero-media img {
   width: 100%;
-  height: 100%;
-  aspect-ratio: 3 / 4;
-  object-fit: contain;
-  background: #fff;
+  aspect-ratio: 16 / 9;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero-media figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  color: #666;
+  line-height: 1.3;
 }
 
 .hero-content {

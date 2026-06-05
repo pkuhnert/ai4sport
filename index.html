@@ -37,22 +37,24 @@
     </header>
 
     <main>
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-media">
-          <img src="assets/generated_image.png" alt="workshop image">
-          <p>*AI generated image</p>
-        </div>
-        <div class="hero-content">
-          <p class="eyebrow">NeurIPS Workshop on</p>
-          <h1 id="hero-title">AI for Sport and Human Performance</h1>
-          <p class="hero-subtitle">Sydney Australia</p>
-          <p class="hero-date">X December 2026 - Whole-day workshop</p>
-          <p class="hero-room">Room: TBA</p>
-          <div class="hero-actions" aria-label="Important links">
-            <a class="button primary" href="#call">Call For Papers</a>
-            <a class="button" href="#schedule">View Schedule</a>
-          </div>
-        </div>
+     <section class="hero" aria-labelledby="hero-title">
+  <figure class="hero-media">
+    <img src="assets/fp_image.png" alt="workshop image">
+    <figcaption>Image: NGGP AusiSTAR</figcaption>
+  </figure>
+
+  <div class="hero-content">
+    <p class="eyebrow">NeurIPS Workshop on</p>
+    <h1 id="hero-title">AI for Sport and Human Performance</h1>
+    <p class="hero-subtitle">Sydney Australia</p>
+    <p class="hero-date">X December 2026 - Whole-day workshop</p>
+    <p class="hero-room">Room: TBA</p>
+
+    <div class="hero-actions" aria-label="Important links">
+      <a class="button primary" href="#call">Call For Papers</a>
+      <a class="button" href="#schedule">View Schedule</a>
+    </div>
+  </div>
       </section>
 
       <section class="section" id="overview">
@@ -62,24 +64,51 @@
         </div>
         <div class="prose">
           <p>
-            The arrival of NeurIPS 2026 in Sydney, followed by the Brisbane 2032 
-            Olympic and Paralympic Games, creates a unique runway for connecting 
-            frontier machine learning research with real-world challenges in sport. 
-            This workshop will harness that momentum to advance trustworthy AI methods 
-            that support athlete performance, safety, wellbeing, and inclusive 
-            participation across professional, community, adaptive, women’s and 
-            emerging digital sports contexts, including e-sports.
-          </p>
+            The arrival of NeurIPS 2026 in Sydney, along with the emergence of key 
+            international conferences on sports analytics 
+            (<a href="https://community.amstat.org/discussion/asa-sports-analytics-conference-april-2425">ASA Sports Analytics Conference</a>, 
+            <a href="https://formal-analysis.com/isace/2026/">International Sports Analytics Conference and Exhibition (ISACE)</a>),
+            followed by the Brisbane 2032 Olympic and Paralympic Games, creates 
+            a unique runway for connecting machine learning (ML) research with 
+            real-world challenges in sport. A key focus of this workshop is the 
+            new and exciting ML and AI methods developed by the NeurIPS community 
+            that can help address some of the complex challenges facing sport and 
+            human performance. </p>
+          <p>Some open-ended problems this workshop will touch on are: 
+          <ul>
+            <li>Recent data-driven AI methods for team sports include multi-agent learning, 
+                sequential decision-making, causal reasoning and spatio-temporal modelling. 
+                Coupled with the use of generative AI to interpret video play  
+                poses interesting questions like, can generative AI assist in game play 
+                that is tracked from broadcast footage, and can this type of information 
+                allow a coach to make near real-time decisions on player positions and strategy?</li>
+            <li>Paralympic sports have had a focus on sport-specific classification systems using 
+                ML and biomechanics. Compared with many able-bodied sport settings, 
+                data are often less systematically collected and individualised to the 
+                athlete, making traditional ML method development challenging. In light of 
+                this, how can we develop ML and AI methods that make use of mobile video 
+                to improve the classification of Para athletes and provide individualised 
+                improvements to their sport?</li>
+            <li>Responsible AI (RAI) for sport as highlighted in a recent report presents ongoing 
+                challenges in methodology development due to the nature of data collection in this 
+                space, i.e. data are sensitive, proprietary, non-standardised and highly context 
+                dependent.  How can we incorporate and operationalise 
+                RAI practices into the ML and AI methods that are being developed? </li>
+                <li> As virtual reality is becoming more widely accessible, how might ML/AI 
+                methods be developed to generate a more personalised training program for 
+                sports professionals through this medium? </li>
+                <li>As esports continue to mature as professional sports, how can ML 
+                and AI methods evolve to provide a competitive edge in these environments?</li>
+</ul>
+
           <p>
-            Sport provides a uniquely demanding real-world environment for AI, 
-            requiring methods that can operate under uncertainty, integrate multimodal 
-            data streams, support embodied and team-based interaction, and remain 
-            interpretable, ethical, and robust in high-stakes human settings.
-          </p>
-          <p>
-            This workshop brings together researchers and practitioners working at 
-            the intersection of machine learning (ML), statistics, sports science, 
-            biomechanics, human performance, and applied decision-making.
+           This workshop provides a unique offering, bringing together researchers and 
+           practitioners working at the intersection of ML, statistics, sports science, 
+           biomechanics, human performance, and applied decision-making. Methods of interest 
+           will be diverse and include areas such as computer vision, multi-modal language 
+           models, reinforcement learning, functional data analysis and probabilistic methods 
+           along with socio-technical aspects of AI, responsible AI practices and general ML 
+           approaches, such as supervised and unsupervised learning.
           </p>
        </div>
       </section>
@@ -103,7 +132,7 @@
           <div class="theme-content">
             <h3>Multi-agent Learning and Multimodal Intelligence in Team Sports</h3>
             <p>Team sports provide a natural testbed for multi-agent learning, sequential 
-            decision-making, causal reasoning and spatio-temporal modelling (Decroos et al. 2019). 
+            decision-making, causal reasoning and spatio-temporal modelling. 
             This theme explores how AI systems can learn meaningful abstractions of game 
             style and structure from multi-modal data, including video, positional data, 
             event streams, match statistics, wearable sensors, biomechanical signals, 
@@ -124,7 +153,7 @@
             less systematically collected, cohorts are smaller, and athlete trajectories 
             may be shaped by heterogeneous impairments, assistive technologies, wheelchair 
             or prosthetic equipment, sport-specific classification systems and highly 
-            individualised biomechanics (Liu et al. 2026, Rum et al. 2025). This theme focuses 
+            individualised biomechanics. This theme focuses 
             on how statistical ML methods can support Para-athlete performance while 
             respecting privacy, dignity and fairness.</p>
             </div>
@@ -136,7 +165,7 @@
             <h3>Responsible AI for Sport and Human Performance</h3>
             <p>This theme focuses on the responsible evaluation and deployment of 
             sports AI systems in settings where data are sensitive, proprietary, 
-            non-standardised and highly context dependent (Davis et al. 2024; Salehi et al. 2024).
+            non-standardised and highly context dependent.
             We invite work on privacy-preserving and synthetic data, federated 
             learning, benchmarking, external validation, reporting standards, athlete 
             data rights, consent and contestability, and human oversight and audit trails.  
@@ -160,9 +189,9 @@
             how data science can support performance, safety, inclusion, integrity and 
             engagement while addressing emerging risks around privacy, bias, accessibility, 
             explainability, governance and human oversight. The theme draws on future-facing 
-            work including the IOC’s Olympic AI Agenda (IOC 2024), sport-AI foresight 
-            reports (Bratanova et al. 2025), and recent academic reviews of AI
-            (Zhou et al. 2025; Vec et l. 2024) , analytics and real-time methods in sport.</p>
+            work including the <a href="https://www.olympics.com/ioc/olympic-ai-agenda">IOC’s Olympic AI Agenda</a>, 
+            the <a href="https://ascwrstorageprod001.ausport.gov.au/assets/j-b27yxvJ8c0YPF-23jCzA.pdf?sv=2025-11-05&st=2026-06-05T02%3A51%3A37Z&se=2026-06-05T10%3A51%3A37Z&sr=b&sp=r&sig=d5C2aEu1m3wwiQJpd2iTpgr4uMRu9OpdbBW34yqZdVs%3D">sport-AI foresight 
+            </a>report, and the <a href="https://ascwrstorageprod001.ausport.gov.au/assets/0Hdg35KPoVgIK7zROeLhoA.pdf?sv=2025-11-05&st=2026-06-05T02%3A51%3A37Z&se=2026-06-05T10%3A51%3A37Z&sr=b&sp=r&sig=GDhlBxsX18rlFCTBaQ3wLFsIZF8a6B%2BmMF11wAteOlI%3D">Responsible AI in sport</a> report.</p>
             </div>
           </article>
         </div>
@@ -226,7 +255,7 @@
           </article>
           
           <article class="schedule-item">
-            <time>08:15 - 09:45</time>
+            <time>08:15 - 10:15</time>
             <div>
               <h3>Theme 1: Multi-agent Learning and Multimodal Intelligence in Team Sports</h3>
               <p>
@@ -234,7 +263,7 @@
                  <a href="https://www.linkedin.com/in/stuartmorganais/" target="_blank" rel="noopener noreferrer">Stuart Morgan</a>,
                   Champion Data
               </p>
-              <p>08:45 - 09:25 Oral Talks</p>
+              <p>08:45 - 09:15 Oral Talks</p>
               <p>09:15 - 09:45 Round Table Discussion I: ML/AI for team sports </p>
             </div>
           </article>
@@ -253,34 +282,33 @@
               <p>
                  10:15 - 10:45 Invited Talk:
                  <a href="https://about.uq.edu.au/experts/38367" target="_blank" rel="noopener noreferrer">Xin Yu (Confirmed)</a>,
-                  University of Queensland
+                  University of Queensland, Australia
               </p>
               <p>10:45 - 11:15 Oral Talks</p>
               <p>11:15 - 11:45 Panel Session I: ML/AI for Para and non-abled Sports</p>
               <p> Panellists: <a href="https://research.qut.edu.au/qutcds/staff/penny-wilde/" target="_blank" rel="noopener noreferrer">Penny Wilde (Confirmed)</a>,
-                  QUT; <a href="TBA" target="_blank" rel="noopener noreferrer">Tim Matthews (tentative)</a>,;
                   <a href="https://hmns.uq.edu.au/profile/1205/emma-beckman" target="_blank" rel="noopener noreferrer">Emma Beckman (tentative)</a>,
                   UQ; <a href="https://www.qut.edu.au/about/our-people/academic-profiles/s.denman" target="_blank" rel="noopener noreferrer">Simon Denman (tentative)</a>,
                   QUT</p>
-              <p> 11:45 - 12:30 Lightning Talks + Poster Session I</p>
+              <p> 11:45 - 12:30 Lightning Talks + Poster Session I + Networking</p>
             </div>
           </article>
           
           <article class="schedule-item">
             <time>12:30 - 13:00</time>
             <div>
-              <h3>Lunch Break and Informal Networking</h3>
+              <h3>Lunch Break + Continued Networking</h3>
             </div>
           </article>
           
           <article class="schedule-item">
-            <time>13:00 - 15:15</time>
+            <time>13:00 - 16:00</time>
             <div>
               <h3>Theme 3: Responsible AI for Sport and Human Performance</h3>
               <p>
                  13:00 - 13:30 Invited Talk:
                  <a href="https://www.patricklucey.com/" target="_blank" rel="noopener noreferrer">Patrick Lucey</a>,
-                  Stats Perform
+                  Stats Perform, USA
               </p>
               <p>13:30 - 14:00 Oral Talks</p>
               <p>14:00 - 14:30 Panel Session II: Responsible AI in Sport</p>
@@ -288,27 +316,26 @@
                   CSIRO; <a href="https://www.ausport.gov.au/ais/events/stars-conference/presenters/john-warmenhoven" target="_blank" rel="noopener noreferrer">John Warmenhoven (Confirmed)</a>,
                   QUT; <a href="hhttps://www.qut.edu.au/about/our-people/academic-profiles/p.wu" target="_blank" rel="noopener noreferrer">Paul Wu (Confirmed)</a>,
                   QUT</p>
-              <p> 14:30 - 15:15 Lightning Talks + Poster Session II</p>
+              <p> 14:30 - 15:15 Lightning Talks + Poster Session II + Networking</p>
             </div>
           </article>
           
           <article class="schedule-item">
-            <time>15:15 - 15:30</time>
+            <time>15:15 - 16:00</time>
             <div>
-              <h3>Break</h3>
+              <h3>Break + Continued Networking</h3>
             </div>
           </article>
           
            <article class="schedule-item">
-            <time>15:30 - 17:00</time>
+            <time>16:00 - 17:30</time>
             <div>
               <h3>Theme 4: The Future of Sports Data Science Towards 2032</h3>
               <p>
-                 15:30 - 16:00 Invited Talk:
+                 16:00 - 16:30 Invited Talk:
                  <a href="https://hmns.uq.edu.au/profile/9352/david-martin" target="_blank" rel="noopener noreferrer">David Martin (tentative)</a>,
-                  University of Queensland
+                  Queensland Academy of Sport, Australia
               </p>
-              <p>16:00 - 16:30 Oral Talks</p>
               <p>16:30 - 17:00 Round Table Discussionl II: Future Gazing for 2032</p>
               <p> Experts: <a href="https://www.linkedin.com/in/emilyrosemond/" target="_blank" rel="noopener noreferrer">Emily Rosemond (Confirmed)</a>,
                   CSIRO; <a href="https://www.linkedin.com/in/jack-fahey-gilmour-920b0a89/" target="_blank" rel="noopener noreferrer">Jack Fahey-Gilmour (Confirmed)</a>,
@@ -334,69 +361,64 @@
         <div class="people-grid">
           <article class="person-card">
             <img src="assets/DM.jpg" alt="">
-            <h3>David Martin (TBC)</h3>
-            <p>UQ</p>
+            <h3>David Martin</h3>
+            <p>UQ Australia</p>
           </article>
           
           <article class="person-card">
             <img src="assets/PL.jpg" alt="">
             <h3>Patrick Lucey</h3>
-            <p>Stats Perform</p>
+            <p>Stats Perform USA</p>
           </article>
           
           <article class="person-card">
             <img src="assets/SM.jpg" alt="">
             <h3>Stuart Morgan</h3>
-            <p>Champion Data</p>
+            <p>Champion Data Australia</p>
           </article>
           
           <article class="person-card">
             <img src="assets/ER.jpg" alt="">
             <h3>Emily Rosemond</h3>
-            <p>Director 2032 Engagement - QUT</p>
+            <p>Director 2032 Engagement - QUT Australia</p>
           </article>
 
           
           <article class="person-card">
             <img src="assets/MB.jpg" alt="">
             <h3>Muneera Bano</h3>
-            <p>CSIRO</p>
+            <p>CSIRO Australia</p>
           </article>
           
           <article class="person-card">
             <img src="assets/XY.png" alt="">
             <h3>Xin Yu</h3>
-            <p>UQ</p>
+            <p>UQ Australia</p>
           </article>
           
           <article class="person-card">
             <img src="assets/PW.jpg" alt="">
-            <h3>Penny Wilde (TBC)</h3>
-            <p>QUT</p>
+            <h3>Penny Wilde</h3>
+            <p>QUT Student Australia</p>
           </article>
           
-          <article class="person-card">
-            <img src="assets/avatar-placeholder.svg" alt="">
-            <h3>Tim Matthews (TBC)</h3>
-            <p>Paraolympian</p>
-          </article>
-
+         
           <article class="person-card">
             <img src="assets/SD.jpg" alt="">
             <h3>Simon Denman</h3>
-            <p>QUT</p>
+            <p>QUT Australia</p>
           </article>
 
           <article class="person-card">
             <img src="assets/JW.jpg" alt="">
             <h3>John Warmenhoven</h3>
-            <p>UTS</p>
+            <p>UTS Australia</p>
           </article>
           
           <article class="person-card">
             <img src="assets/PWu.jpg" alt="">
             <h3>Paul Wu</h3>
-            <p>QUT</p>
+            <p>QUT Australia</p>
           </article>
           
           
@@ -406,7 +428,7 @@
       <section class="section tinted" id="organizers">
         <div class="section-heading">
           <p class="section-kicker">Organisers</p>
-          <h2>Organising & Program Committee</h2>
+          <h2>Organising & Program Committees</h2>
         </div>
         
         <div class="people-grid compact">
@@ -416,27 +438,43 @@
           <article class="person-card">
             <img src="assets/PK.JPG" alt="">
             <h3>Petra Kuhnert</h3>
-            <p>CSIRO/QUT</p>
+            <p>CSIRO/QUT Australia</p>
             </article>
+            
             
             <article class="person-card">
             <img src="assets/JD.jpg" alt="">
             <h3>Jesse Davis</h3>
-            <p>KU Leuven</p>
+            <p>KU Leuven Belgium</p>
            </article>
            
             
           <article class="person-card">
             <img src="assets/KM.jpg" alt="">
             <h3>Kerrie Mengersen</h3>
-            <p>QUT</p>
+            <p>QUT Australia</p>
           </article>
-          
+                  
+           <article class="person-card">
+            <img src="assets/LM.jpg" alt="">
+            <h3>Lachlan McGinness </h3>
+            <h3>(PhD Student)</h3></h3>
+            <p>ANU Australia</p>
+          </article>
+
           
           <article class="person-card">
-            <img src="assets/CSO.jpg" alt="">
-            <h3>Cheng Soon Ong </h3>
-            <p>CSIRO/ANU</p>
+            <img src="assets/SK.jpg" alt="">
+            <h3>Sinan Koparan</h3>
+            <h3>(PhD Student)</h3></h3>
+            <p>UTS Australia</p>
+          </article>
+          
+          <article class="person-card">
+            <img src="assets/MS.jpg" alt="">
+            <h3>Madi Stibbe</h3>
+            <h3>(PhD Student)</h3></h3>
+            <p>QUT Australia</p>
           </article>
           
           
@@ -444,13 +482,13 @@
           <article class="person-card">
             <img src="assets/BH.jpg" alt="">
             <h3>Brent Henderson</h3>
-            <p>CSIRO</p>
+            <p>CSIRO Australia</p>
           </article>
           
           <article class="person-card">
             <img src="assets/DZ.jpg" alt="">
             <h3>Didar Zowghi</h3>
-            <p>CSIRO/UTS</p>
+            <p>CSIRO/UTS Australia</p>
           </article>
           
           <article class="person-card">
@@ -462,36 +500,17 @@
           <article class="person-card">
             <img src="assets/AB.jpg" alt="">
             <h3>Alexandra Bratanova</h3>
-            <p>CSIRO</p>
+            <p>CSIRO Australia</p>
           </article>
-        </div>
-        
+          
+          <article class="person-card">
+            <img src="assets/CSO.jpg" alt="">
+            <h3>Cheng Soon Ong </h3>
+            <p>CSIRO/ANU Australia</p>
+          </article>
+          
+ 
 
-         <div class="section-heading">
-          <p class="section-kicker">Organisers</p>
-          <h2>Student Helpers</h2>
-        </div>
-        <div class="people-grid compact">
-          <article class="person-card">
-            <img src="assets/LM.jpg" alt="">
-            <h3>Lachlan McGinness</h3>
-            <p>ANU</p>
-          </article>
-          
-          <article class="person-card">
-            <img src="assets/SK.jpg" alt="">
-            <h3>Sinan Koparan</h3>
-            <p>UTS</p>
-          </article>
-          
-          <article class="person-card">
-            <img src="assets/MS.jpg" alt="">
-            <h3>Madi Stibbe</h3>
-            <p>QUT</p>
-          </article>
-          
-
-        </div>
       </section>
 
       <section class="section" id="accepted">
@@ -519,12 +538,12 @@
           <p class="section-kicker">Contact</p>
           <h2>Questions about the workshop?</h2>
         </div>
-        <p>Email the organizing team at <a href="mailto:firstname.lastname@gmail.com">firstname.lastname@gmail.com</a>.</p>
+        <p>Email the organising team at <a href="mailto:admin.sportsdata@qut.edu.au">admin.sportsdata@qut.edu.au</a>.</p>
       </section>
     </main>
 
     <footer class="footer">
-      <p>Copyright 2026 XXXX Sports Workshop. (Draft)</p>
+      <p>Copyright 2026 QUT CDC Sports Workshop. (Draft)</p>
       <a href="#top">Back to top</a>
     </footer>
 
